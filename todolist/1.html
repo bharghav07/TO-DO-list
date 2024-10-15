@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+    <div class="con">
+        <nav>
+            <div class="head">
+            <h1>TO-DO List</h1>
+            <span><img src="icon.png" class="img"></span>
+            <div class="td">
+            <div class="da">Date:
+            <div id="date"></div>
+            <div id="month"></div>
+            <div id="year"></div>
+            </div>
+            <div class="time">
+                Time:
+                <div id="hour"></div>
+                <div id="min"></div>
+                <div id="sec"></div>
+            </div>
+            </div>
+            <p class="sm">:)</p>
+            </div>
+            <div class="ipfield">
+                <input type="text" placeholder="enter task" id="ip">
+                <button class="bt" onclick="addtask()" >+</button>
+            </div>
+        </nav>
+        <div>
+            <ul id="lite">
+                <!-- <li class="item">add</li>
+                <li>sub</li>
+                <li>hei</li>
+                <li>hei</li> -->
+            </ul>
+        </div>
+    </div>
+    <script src="1.js"></script>
+</body>
+</html>
