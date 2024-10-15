@@ -1,2 +1,3 @@
 # TO-DO-list
-This is a application to perform whatever activities you need to complete
+This is a application developed using HTML,CSS and JAVASCRIPT 
+It is used to store,add,delete task whenever you want to
